@@ -1,5 +1,6 @@
-# Installation
-Die nachfolgenden Kapitel sollten in der angegebenen Reihenfolge umgesetzt werden.
+# Konfiguration für Sollwertanhebung einer Wärmepumpe
+Problemstellung: Eine Wärmepumpe soll durch Sollwerterhöhung bei PV Strom zusätzliche Energie speichern. Da der SHM nur die Leistung von durch den SHM selbst eingeschalteten Verbrauchern richtig zuordnet, funktioniert dies nicht wie gewünscht. 
+Der SHM merkt sich die periodisch wiederkehrenden Verbräuche der Wärmepumpe nur als "Grundlast". Ein weiteres aktivieren einer Sollwerterhöhung würde dann für den SHM weitere Energie benötigen. Reicht der PV Strom nicht für die doppelte Leistungsaufnahme der Wärmepumpe aus, verhindert dies das einschalten der Sollwerterhöhung. 
 
 ## Betriebssystem
 ### Allgemeine Hinweise
